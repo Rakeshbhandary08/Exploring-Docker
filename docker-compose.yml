@@ -1,0 +1,7 @@
+services:
+
+  node-app::
+  build: .
+  container_name: node-app
+  ports: 
+  - "4800:4800"
